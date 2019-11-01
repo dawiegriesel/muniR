@@ -21,3 +21,5 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+URL: https://github.com/dmg73/muniR
+BugReports: https://github.com/dmg73/muniR/issues
