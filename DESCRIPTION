@@ -1,0 +1,12 @@
+Package: muniR
+Title: Municipality Financial Sustainability Analysis
+Version: 0.0.0.9000
+Authors@R: person('Dawie', 'Griesel', email = 'dawiegr@gmail.com', role = c('cre', 'aut'))
+Description: Municipality Financial Sustainability Analisis (MFSA) for South African Municipalities. MFSA is performed using the API made available by National Treasury (https://municipaldata.treasury.gov.za/)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    shiny, 
+    golem
+RoxygenNote: 6.1.0
