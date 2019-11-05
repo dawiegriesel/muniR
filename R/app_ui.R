@@ -3,10 +3,12 @@ app_ui <- function() {
   tagList(
     # Leave this function for adding external resources
     golem_add_external_resources(),
+    
     # List the first level UI elements here 
     fluidPage(
-      h1("muniR")
-    )
+      h1("muniR"),
+          mod_mod_muni_select_ui("mod_muni_select_ui_1")
+      )
   )
 }
 

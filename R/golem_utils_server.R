@@ -30,3 +30,13 @@ drop_nulls <- function(x){
 # typing reactiveValues is too long
 rv <- shiny::reactiveValues
 rvtl <- shiny::reactiveValuesToList
+
+# treasury api - cube/facts
+
+get_munis <- function(cube = "municipalities", page = 1) {
+  x <- httr::GET(glue::glue("https://municipaldata.treasury.gov.za/api/cubes/{cube}/facts?page={page}")) %>%
+    jsonlite::parse_json(simplifyVector = TRUE)
+  x$data
+}
+
+

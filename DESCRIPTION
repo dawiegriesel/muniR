@@ -14,8 +14,13 @@ Imports:
     DT,
     glue,
     htmltools,
-    thinkr
-RoxygenNote: 6.1.0
+    thinkr,
+    bs4Dash,
+    shinyWidgets,
+    httr,
+    sf,
+    dplyr
+RoxygenNote: 6.1.1
 Suggests: 
     testthat (>= 2.1.0),
     knitr,
